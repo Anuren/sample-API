@@ -2,7 +2,7 @@
 FROM microsoft/dotnet
 # Copy our published code from the “/app” folder to the “/app” folder in our container
 WORKDIR /app
-COPY /www /app
+#COPY /www /app
 # Expose port 5000 for the Web API traffic
 EXPOSE 5000
 # Restore the necessary packages
